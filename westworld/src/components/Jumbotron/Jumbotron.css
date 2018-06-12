@@ -1,0 +1,9 @@
+.jumbotron {
+  background-image: url(./desert.jpg);
+  color: white;
+  height: 300px;
+}
+
+hr {
+  border-top: 1px solid white;
+}

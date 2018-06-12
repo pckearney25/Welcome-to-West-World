@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Maeve",
+    "image": "./assets/images/maeve.jpg",
+    "message": "Went looking for Maeve's daughter.",
+    "selected": false
+  },
+  {
+    "id": 2,
+    "name": "Dolores",
+    "image": "./assets/images/dolores.jpg",
+    "message": "Shot A LOT of hosts with Dolores.",
+    "selected": false
+  },
+  {
+    "id": 3,
+    "name": "Teddy",
+    "image": "./assets/images/teddy.jpg",
+    "message": "Had a shootout with Teddy.",
+    "selected": false
+  },
+  {
+    "id": 4,
+    "name": "Bernard",
+    "image": "../assets/images/bernard.jpg",
+    "message": "Helped Bernard remember things.",
+    "selected": false
+  },
+  {
+    "id": 5,
+    "name": "Clementine",
+    "image": "./assets/images/clementine.jpg",
+    "message": "Drank shots at the Mariposa with Clementine.",
+    "selected": false
+  },
+  {
+    "id": 6,
+    "name": "Hector",
+    "image": "./assets/images/hector.jpg",
+    "message": "Opened an empty safe with Hector.",
+    "selected": false
+  },
+  {
+    "id": 7,
+    "name": "Angela",
+    "image": "./assets/images/angela.jpg",
+    "message": "Met Angela on arrival at the Mesa.",
+    "selected": false
+  },
+  {
+    "id": 8,
+    "name": "Lawrence",
+    "image": "./assets/images/lawrence.jpg",
+    "message": "Rode horses all over the park with Lawrence.",
+    "selected": false
+  },
+  {
+    "id": 9,
+    "name": "Akecheta",
+    "image": "./assets/images/akecheta.jpg",
+    "message": "Visited Ghost Nation with Akecheta",
+    "selected": false
+  },
+  {
+    "id": 10,
+    "name": "Peter Abernathy",
+    "image": "./assets/images/abernathy.jpg",
+    "message": "Stared at an old photo with Abernathy.",
+    "selected": false
+  },
+  {
+    "id": 11,
+    "name": "Akane",
+    "image": "./assets/images/akane.jpg",
+    "message": "Visited the Shogun with Akane.",
+    "selected": false
+  },
+  {
+    "id": 12,
+    "name": "Ford",
+    "image": "./assets/images/ford.jpg",
+    "message": "Got a cryptic lecture from Ford.",
+    "selected": false
+  }
+]
