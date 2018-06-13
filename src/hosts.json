@@ -68,7 +68,7 @@
   {
     "id": 12,
     "name": "Bernard",
-    "image": "../assets/images/bernard.jpg",
+    "image": "./assets/images/bernard.jpg",
     "message": "Helped Bernard remember things."
   }
 ]
