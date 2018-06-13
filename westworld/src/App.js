@@ -12,17 +12,71 @@ class App extends Component {
     hosts,
     message: "Click on a host to begin.",
     score: 0,
-    topScore: 0
+    topScore: 0,
+    selectedArray: []
   };
 
-  //removeFriend = id => {
-  // Filter this.state.friends for friends with an id not equal to the id being removed
-  //const friends = this.state.friends.filter(friend => friend.id !== id);
-  // Set this.state.friends equal to the new friends array
-  //this.setState({ friends });
-  //};
+  createNarrative = (id, message) => {
+    //The functions we'll call thoughout the round
+    const updateMessage = message => {
+      this.setState({ message: message });
+    };
+    //Modified Durstenfield shuffle
+    //h/t https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+    const shuffleHosts = () => {
+      let hosts = this.state.hosts;
+      for (let i = hosts.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [hosts[i], hosts[j]] = [hosts[j], hosts[i]]; // eslint-disable-line no-param-reassign
+      }
+      this.setState({ hosts });
+    };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+    const updateScore = () => {
+      this.setState({
+        score: this.state.score + 1
+      });
+
+      if (this.state.score >= this.state.topScore) {
+        this.setState({
+          score: this.state.score + 1,
+          topScore: this.state.topScore + 1
+        });
+      } else {
+        this.setState({
+          score: this.state.score + 1
+        });
+      }
+      if (this.state.score + 1 === 12) {
+        this.setState({
+          score: 0,
+          message: "You win! Let's play another round!",
+          selectedArray: []
+        });
+      }
+    };
+
+    console.log(this.state.selectedArray);
+    let selectedArray = this.state.selectedArray;
+    const foundId = selectedArray.find(element => element === id);
+    if (foundId) {
+      this.setState({
+        score: 0,
+        message:
+          "The robot host remembered you and led a rebellion! Play another round.",
+        selectedArray: []
+      });
+    } else {
+      selectedArray.push(id);
+      this.setState({
+        selectedArray: selectedArray
+      });
+      updateMessage(message);
+      shuffleHosts();
+      updateScore();
+    }
+  };
+
   render() {
     return (
       <Wrapper>
@@ -35,10 +89,10 @@ class App extends Component {
           <HostCard
             id={host.id}
             key={host.id}
-            selected={host.selected}
             name={host.name}
             image={host.image}
             message={host.message}
+            createNarrative={this.createNarrative}
           />
         ))}
       </Wrapper>

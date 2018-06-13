@@ -7,3 +7,11 @@
 hr {
   border-top: 1px solid white;
 }
+.message-div,
+.score-div {
+  font-size: 18px;
+}
+
+.score-div {
+  margin-top: 10px;
+}

@@ -3,84 +3,72 @@
     "id": 1,
     "name": "Maeve",
     "image": "./assets/images/maeve.jpg",
-    "message": "Went looking for Maeve's daughter.",
-    "selected": false
+    "message": "Went looking for Maeve's daughter."
   },
   {
     "id": 2,
     "name": "Dolores",
     "image": "./assets/images/dolores.jpg",
-    "message": "Shot A LOT of hosts with Dolores.",
-    "selected": false
+    "message": "Shot A LOT of hosts with Dolores."
   },
   {
     "id": 3,
     "name": "Teddy",
     "image": "./assets/images/teddy.jpg",
-    "message": "Had a shootout with Teddy.",
-    "selected": false
+    "message": "Had a shootout with Teddy."
   },
   {
     "id": 4,
-    "name": "Bernard",
-    "image": "../assets/images/bernard.jpg",
-    "message": "Helped Bernard remember things.",
-    "selected": false
+    "name": "Musashi",
+    "image": "./assets/images/musashi.jpg",
+    "message": "Fought the Shogun's army with Musashi."
   },
   {
     "id": 5,
     "name": "Clementine",
     "image": "./assets/images/clementine.jpg",
-    "message": "Drank shots at the Mariposa with Clementine.",
-    "selected": false
+    "message": "Drank shots at the Mariposa with Clementine."
   },
   {
     "id": 6,
     "name": "Hector",
     "image": "./assets/images/hector.jpg",
-    "message": "Opened an empty safe with Hector.",
-    "selected": false
+    "message": "Opened an empty safe with Hector."
   },
   {
     "id": 7,
     "name": "Angela",
     "image": "./assets/images/angela.jpg",
-    "message": "Met Angela on arrival at the Mesa.",
-    "selected": false
+    "message": "Met Angela on arrival at the Mesa."
   },
   {
     "id": 8,
     "name": "Lawrence",
     "image": "./assets/images/lawrence.jpg",
-    "message": "Rode horses all over the park with Lawrence.",
-    "selected": false
+    "message": "Rode horses all over the park with Lawrence."
   },
   {
     "id": 9,
     "name": "Akecheta",
     "image": "./assets/images/akecheta.jpg",
-    "message": "Visited Ghost Nation with Akecheta",
-    "selected": false
+    "message": "Visited Ghost Nation with Akecheta."
   },
   {
     "id": 10,
     "name": "Peter Abernathy",
     "image": "./assets/images/abernathy.jpg",
-    "message": "Stared at an old photo with Abernathy.",
-    "selected": false
+    "message": "Stared forever at an old photo with Abernathy."
   },
   {
     "id": 11,
     "name": "Akane",
     "image": "./assets/images/akane.jpg",
-    "message": "Visited the Shogun with Akane.",
-    "selected": false
+    "message": "Danced for the Shogun with Akane."
   },
   {
     "id": 12,
-    "name": "Ford",
-    "image": "./assets/images/ford.jpg",
-    "message": "Got a cryptic lecture from Ford.",
-    "selected": false
+    "name": "Bernard",
+    "image": "../assets/images/bernard.jpg",
+    "message": "Helped Bernard remember things."
   }
 ]
